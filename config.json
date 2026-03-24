@@ -1,23 +1,23 @@
 {
 	"name": {
-		"zh-cn": "OLED-12864显示屏(示例)",
-		"en": "OLED-12864 screen"
+		"zh-cn": "ASR语音识别",
+		"en": "ASR Speech Recognition"
 	},
 	"description": {
-		"zh-cn": "小体积显示屏，可用于智能穿戴设备的显示器。(用户库示例)",
-		"en": "I2C OLED-2864 Display Module"
+		"zh-cn": "具有简单语音识别功能和语音播报功能",
+		"en": "UART Speech Recognition Module"
 	},
-	"author": "DFRobot",
-	"email": "MindPlus@dfrobot.com",
+	"author": "ZCC1201",
+	"email": "1173305591@qq.com",
 	"license": "MIT",
 	"isBoard": false,
-	"id": "oled12864",
+	"id": "Speech001",
 	"platform": ["win", "mac", "web"],
-	"version": "0.0.3",
+	"version": "0.0.1",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "0.0.3",
+			"version": "0.0.1",
 			"board": ["microbit", "esp32"],
 			"main": "main.ts"
 		}
