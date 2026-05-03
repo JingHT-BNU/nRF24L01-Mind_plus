@@ -1,24 +1,24 @@
 {
 	"name": {
-		"zh-cn": "OLED-12864显示屏(示例)",
-		"en": "OLED-12864 screen"
+		"zh-cn": "su03t",
+		"en": "su03t"
 	},
 	"description": {
-		"zh-cn": "小体积显示屏，可用于智能穿戴设备的显示器。(用户库示例)",
-		"en": "I2C OLED-2864 Display Module"
+		"zh-cn": "语音识别模块",
+		"en": "su03t"
 	},
-	"author": "DFRobot",
-	"email": "MindPlus@dfrobot.com",
+	"author": "622522",
+	"email": "2256766028@qq.com",
 	"license": "MIT",
 	"isBoard": false,
-	"id": "oled12864",
+	"id": "su03t",
 	"platform": ["win", "mac", "web"],
-	"version": "0.0.3",
+	"version": "0.0.1",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
 			"version": "0.0.3",
-			"board": ["microbit", "esp32"],
+			"board": ["esp32","arduino","arduinonano","mega2560","firebeetleesp32","firebeetleesp32e"],
 			"main": "main.ts"
 		}
 	}
