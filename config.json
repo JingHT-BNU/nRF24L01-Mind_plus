@@ -1,24 +1,24 @@
 {
 	"name": {
-		"zh-cn": "OLED-12864显示屏(示例)",
-		"en": "OLED-12864 screen"
+		"zh-cn": "无线电",
+		"en": "radio"
 	},
 	"description": {
-		"zh-cn": "小体积显示屏，可用于智能穿戴设备的显示器。(用户库示例)",
-		"en": "I2C OLED-2864 Display Module"
+		"zh-cn": "nRF24L01用于无线电",
+		"en": "Radio on nRF24L01"
 	},
-	"author": "DFRobot",
-	"email": "MindPlus@dfrobot.com",
+	"author": "Jort",
+	"email": "JingHT@mail.bnu.edu.cn",
 	"license": "MIT",
 	"isBoard": false,
-	"id": "oled12864",
+	"id": "nRF24L01",
 	"platform": ["win", "mac", "web"],
-	"version": "0.0.3",
+	"version": "0.0.1",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "0.0.3",
-			"board": ["microbit", "esp32"],
+			"version": "0.0.1",
+			"board": ["arduinonano"],
 			"main": "main.ts"
 		}
 	}
