@@ -9,7 +9,7 @@
 	},
 	"author": "Jort",
 	"email": "JingHT@mail.bnu.edu.cn",
-	"license": "MIT",
+	"license": "WTFPL",
 	"isBoard": false,
 	"id": "nRF24L01",
 	"platform": ["win", "mac", "web"],
